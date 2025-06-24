@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+header {
+  background: #F5F5F5;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px; 
+  margin-top: 20px; 
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #F5F5F5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+
+
+/* alguma class  bla bla bla */
+
+header {
+  background: #F5F5F5;
+  color: white;
+  padding: 30px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-size: url(./img/3.jpg) center/cover no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+
+}
+
+.hero {
+  background-image: url(./img/capa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 188px 0;  /* Reduzido para deixar mais próximo do topo */
+  text-align: center;
+}
+
+
+
+/* texto da capa */
+.hero h2 {
+  font-size: 3em;
+}
+
+
+
+
+
+/* branco da roupas atras */
+.produtos {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+
+/* aqui muda deixando o h2 das roupas no meio/ esse pode ajudar a por do araxa no meio */
+.produtos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+/* esse deixa as roupa alinhada uma do lado da outra/ usar esse pra alinhar as outras masculina */
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+/* esse é o tamanho da foto das roupas, nao sei porque mas fica uma em cima da outra enfileirada,
+ porq eu tenho o negocio de ser uma do lado da outra  */
+.produto {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* isso aqui fode a imagem tambem, negocio louco  */
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* esse é o do sobre muda a cor e um pouco do tamanho/ colocar a imagem do galho e da mao de preferencia */
+.sobre {
+  padding: 10px 0;
+  background-color: #F8EADA;
+  text-align: center;
+}
+
+  
+
+/* esse é aquele que fica la embaixo com as informações de contato etc  */
+footer {
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+nav ul li a {
+  color: black;
+}
+
+
+.hero {
+  width: 10px;  /* tamanho fixo ou variável */
+  height: 70px;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.hero{
+  width: 100%;
+  height: 10%;
+  object-fit: contain;
+  display: block;
+}
+
+
